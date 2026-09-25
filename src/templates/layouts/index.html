@@ -47,6 +47,20 @@
 
     <main class="max-w-screen-lg mx-auto mb-auto">
       {% block body %}{% endblock %}
+
+        <h1>Cuenta bancaria</h1>
+
+        <p>Titular: {{ cuenta.titular }}</p>
+
+       <p>Saldo: {{ cuenta.saldo }}</p>
+
+       <h2>Personaje Videojuego</h2>
+
+       <p>Nombre: {{personaje1.nombre}}</p>
+
+       <p>Vida {{personaje1.vida}}</p>
+
+       <p>Nivel {{personaje1.nivel}}</p>
     </main>
 
     <footer class="text-center mt-6 pb-6 h-10">
